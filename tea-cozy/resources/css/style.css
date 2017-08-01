@@ -1,0 +1,147 @@
+/*---Main Body---*/
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity:0.9;
+}
+
+
+/*---Header Section---*/
+
+header{
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+  display: flex;
+}
+
+header .logo{
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+ header img{
+  height:50px;
+  width: 167px;
+  margin-left: 10px;
+}
+
+header nav{
+  display: block;
+}
+
+header a{
+  color: seashell;
+  Padding-left: 10px;
+  text-decoration:underline;
+}
+
+
+/*---Mission Section---*/
+
+.mission-section{
+  padding-top: 70px;
+  display: block;
+}
+
+.mission{
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  max-width: 1200px;
+  background-position: center;
+  margin: 0 auto;
+  background-image: url(../images/img-mission-background.jpg);
+  flex-flow: wrap;
+ }
+
+.mission-text{
+  display:block;
+  background-color: black;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+/*-------Feeatured-Tea Section----*/
+.tea-text{
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  width: 1000px;
+  height: 530px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.product{
+  text-align: center;
+}
+
+.product img{
+  max-width: 300px;
+  max-height: 200px;
+  display: block;
+  margin: 10px;
+}
+
+.product span{
+  padding-top: 10px;
+}
+
+
+/*----Locations Section------*/
+
+.info{
+  height: 500px;
+  width: 1200px;
+  background-image: url(../images/img-locations-background.jpg);
+  text-align: center;
+  opacity: 1;
+  margin: 0 auto;
+}
+
+.locations{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.address{
+  flex-basis: 300px;
+  background-color: black;
+  border: 1px solid white;
+  opacity: 1;
+  margin: 0px 20px;
+  text-align: center;
+  justify-content: center;
+
+}
+ .info h2{
+   padding-top: 98px;
+   margin-bottom: 14px;
+ }
+
+/*---Conatct and Footer---*/
+.contact{
+  height: 200px;
+  text-align: center;
+}
+
+.footer{
+  text-align: left;
+}
